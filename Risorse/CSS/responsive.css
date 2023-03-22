@@ -1,5 +1,5 @@
 /**************************
-        MOBILE / DEKSTOP FIRST ? 
+        MOBILE FIRST 
 **************************/
 
 /*****************************************/
@@ -7,7 +7,16 @@
 @media screen and (max-width: 480px) {
 
     /* HEADER STYLE */
+    
     /* MAIN STYLE */
+    aside {
+        width: 3.125rem;
+    }
+
+    #mainContentSec {
+        width: calc(100vw - 3.125rem);
+    }
+
     /* Aside Section Style */
     /* FOOTER STYLE */
 }

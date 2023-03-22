@@ -1,7 +1,7 @@
 /******** GENERAL STYLE ********/
 :root {
     --blueBG: #141922;
-    --darkblueBG: #070B12;
+    --darkblueBG: #070b12;
     --greyBG: #282828;
     --lightgreyTXT: #7E7F84;
 }
@@ -23,5 +23,32 @@ a {
 }
 
 /******** HEADER STYLE ********/
+header {
+    height: 5.625rem;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8;
+}
 /******** MAIN STYLE ********/
+
+/* General Layout Style */
+main > section {
+    height: calc(100vh - 11.25rem);
+    margin-top: 5.625rem;
+}
+
+aside {
+    width: 14.375rem;
+    margin-top: -5.625rem;
+    z-index: 2;
+}
+
+#mainContentSec {
+    width: calc(100vw - 14.375rem);
+}
+
 /******** FOOTER STYLE ********/
+footer {
+    height: 5.625rem;
+}
