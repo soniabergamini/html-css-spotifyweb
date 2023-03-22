@@ -1,0 +1,66 @@
+/**************************
+        MOBILE / DEKSTOP FIRST ? 
+**************************/
+
+/*****************************************/
+/***** LAYOUT: ONLY MOBILE "XS SIZE" *****/
+@media screen and (max-width: 480px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+}
+
+/****************************************/
+/***** LAYOUT: ONLY MOBILE "S SIZE" *****/
+@media screen and (max-width: 768px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+}
+
+/*****************************************/
+/***** LAYOUT: ONLY TABLET "MD SIZE" *****/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+} 
+
+/***************************************************/
+/***** LAYOUT: TABLET & DESKTOP "MD & LG SIZE" *****/
+@media screen and (min-width: 768px) {
+    
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+    
+}
+
+/******************************************/
+/***** LAYOUT: ONLY DESKTOP "LG SIZE" *****/
+@media screen and (min-width: 992px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+
+}
+
+/******************************************************/
+/***** LAYOUT: ONLY EXTRA LARGE DESKTOP "XL SIZE" *****/
+@media screen and (min-width: 1200px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    /* FOOTER STYLE */
+
+} 
