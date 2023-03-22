@@ -9,6 +9,7 @@
 .spaceBtw       {justify-content: space-between;}
 .justyCtr       {justify-content: center;}
 .spaceARN       {justify-content: space-around;}
+.justyEnd       {justify-content: flex-end;}
 .alignCtr       {align-items: center;}
 .alignStart     {align-items: flex-start;}
 .alignEnd       {align-items: flex-end;}
@@ -58,8 +59,10 @@
 .wid60Perc      {width: 60%;}
 .wid50Perc      {width: 50%;}
 .wid30Perc      {width: 30%;}
+.heig100Perc    {height: 100%;}
 .pad2rem        {padding: 2rem;}
 .pad1rem        {padding: 1rem;}
+.pad05rem       {padding: 0.5rem;}
 .marginBottom8  {margin-bottom: 8rem;}
 .marginLat05em  {margin: 0.5em 0;}
 .border         {border: 1px solid black;}
