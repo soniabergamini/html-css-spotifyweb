@@ -116,3 +116,21 @@
     /* FOOTER STYLE */
 
 } 
+
+/******************************************************/
+/***** LAYOUT: ALL DEVICES ONLY HEIGHT REDUCED *****/
+@media screen and (max-height: 675px) {
+
+    /* HEADER STYLE */
+    /* MAIN STYLE */
+    /* Aside Section Style */
+    aside > section > div:first-child {
+        height: auto;
+    }
+
+    aside > section > div:last-child {
+        height: auto;
+    }
+    /* FOOTER STYLE */
+
+}

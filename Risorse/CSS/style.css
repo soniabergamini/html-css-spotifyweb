@@ -138,6 +138,10 @@ aside i.fa-user.menuIcon {
     font-size: 16px;
 }
 
+aside > section > div:last-child > p:last-child {
+    margin-top: 1rem;
+}
+
 /******** FOOTER STYLE ********/
 footer {
     height: 5.625rem;
