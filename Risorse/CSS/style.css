@@ -24,6 +24,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--lightgreyTXT);
 }
 
 /******** BANNER STYLE ********/
@@ -126,7 +127,7 @@ aside i.fa-circle-arrow-down {
     margin-right: 1em;
 }
 
-nav > div > hr {
+aside > nav > div > hr {
     border: 0.5px solid var(--lightgreyTXT);
     margin-top: -0.5rem;
     margin-left: 0;
@@ -141,6 +142,8 @@ aside i.fa-user.menuIcon {
 aside > nav > div:last-child > p:last-child {
     margin-top: 1rem;
 }
+
+/* Main Content Section Style */
 
 /******** FOOTER STYLE ********/
 footer {

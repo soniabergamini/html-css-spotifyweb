@@ -23,7 +23,7 @@
 .posRelative    {position: relative;}
 .posAbsolute    {position: absolute;}
 .displayBlock   {display: block;}
-.scale1-5         {transform: scale(1.5);}
+.scale1-5       {transform: scale(1.5);}
 
 /********************************************
         UTILITY | Customize text  
