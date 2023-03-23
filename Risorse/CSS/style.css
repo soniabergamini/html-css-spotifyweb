@@ -1,8 +1,12 @@
 /******** GENERAL STYLE ********/
 :root {
+/* primary color */
+    --green: #AEFF30;
+/* secondary colors: background */
     --blueBG: #141922;
     --darkblueBG: #070b12;
     --greyBG: #282828;
+/* secondary colors: text */
     --lightgreyTXT: #7E7F84;
 }
 
@@ -38,6 +42,7 @@ header button {
     font-size: .7rem;
     font-weight: 900;
 }
+
 /******** MAIN STYLE ********/
 
 /* General Layout Style */
@@ -54,6 +59,83 @@ aside {
 
 #mainContentSec {
     width: calc(100vw - 14.375rem);
+}
+
+/* Side Menu Bar Style */
+aside > section {
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+aside > section > div:first-child {
+    height: 90%;
+}
+
+aside > section > div:last-child {
+    height: 10%;
+}
+
+aside > section > div > img {
+    margin-bottom: 1.875rem;
+}
+
+aside > section > div > img:nth-child(2) {
+    display: none;
+}
+
+aside > section > div > * {
+    margin-left: -1rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--green);
+}
+
+aside > section > div > p {
+    margin-bottom: 1rem;
+    font-size: .75rem;
+    font-weight: 600;
+}
+
+aside > section > div > p:nth-child(5) {
+    margin-bottom: 1.875rem;
+}
+
+.menuIcon {
+    font-size: 1.5rem;
+    margin-right: 0.3em;
+    width: 1.6875rem;
+}
+
+#libraryIcon {
+    left: -0.25rem;
+}
+
+aside > section > div > h5 {
+    margin-bottom: 1rem;
+}
+
+aside i.menuIcon.scale1-5 {
+    padding-left: 0.3rem;
+    margin-right: 0.5em;
+}
+
+aside i.menuIcon.scale1-5 + span {
+    font-size: .875rem;
+}
+
+aside i.fa-circle-arrow-down {
+    margin-right: 1em;
+}
+
+aside hr {
+    border: 0.5px solid var(--lightgreyTXT);
+    margin-top: -0.5rem;
+    margin-left: 0;
+}
+
+aside i.fa-user.menuIcon {
+    background-color: var(--lightgreyTXT);
+    padding: 2% 3%;
+    font-size: 16px;
 }
 
 /******** FOOTER STYLE ********/

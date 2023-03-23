@@ -23,6 +23,7 @@
 .posRelative    {position: relative;}
 .posAbsolute    {position: absolute;}
 .displayBlock   {display: block;}
+.scale1-5         {transform: scale(1.5);}
 
 /********************************************
         UTILITY | Customize text  
@@ -31,6 +32,7 @@
 .txtGrey        {color: var(--lightgreyTXT);}
 .txtBlack       {color: black;}
 .txtSmall       {font-size: small;}
+.txtLarge       {font-size: large;}
 .txtUnderline   {text-decoration: underline;}
 .txtItalic      {font-style: italic;}
 .txtAlignCtr    {text-align: center;}
@@ -62,10 +64,11 @@
 .heig100Perc    {height: 100%;}
 .pad2rem        {padding: 2rem;}
 .pad1rem        {padding: 1rem;}
+.pad1rem-xs     {padding: 1em;}
 .pad05rem       {padding: 0.5rem;}
 .marginBottom8  {margin-bottom: 8rem;}
 .marginLat05em  {margin: 0.5em 0;}
-.border         {border: 1px solid black;}
+.border         {border: 1px solid white;}
 .borderRadius   {border-radius: 1.5rem;}
 .borderRadius3  {border-radius: 3rem;}
 .borderRadius50 {border-radius: 50%;}

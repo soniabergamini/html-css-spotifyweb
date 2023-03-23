@@ -6,8 +6,10 @@
 /***** LAYOUT: ONLY MOBILE "XS SIZE" *****/
 @media screen and (max-width: 480px) {
 
+    /* GENERAL STYLE */
+
     /* HEADER STYLE */
-    
+
     /* MAIN STYLE */
     aside {
         width: 3.125rem;
@@ -15,6 +17,47 @@
 
     #mainContentSec {
         width: calc(100vw - 3.125rem);
+    }
+
+    /* Side Menu Bar Style */
+    aside > section {
+        padding: 0.5rem;
+    }
+
+    aside > section > div:first-child {
+        height: 80%;
+    }
+
+    aside > section > div:last-child {
+        height: 20%;
+    }
+
+    aside > section img:nth-child(1) {
+        display: none;
+    }
+
+    aside > section img:nth-child(2) {
+        display: inline-block;
+    }
+
+    aside > section > div > * {
+        margin-left: -0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .dispNoneXs ,
+    aside > section h5 ~ * {
+        display: none;
+    }
+
+    aside > section > div:last-child > p:first-child {
+        margin-bottom: 2rem;
+    }
+
+    aside i.fa-user.menuIcon {
+        background-color: var(--lightgreyTXT);
+        padding: 0.35rem 0.35rem;
+        font-size: 14px;
     }
 
     /* Aside Section Style */

@@ -1,4 +1,10 @@
 /*****************************************/
+/***** ALL LAYOUT *****/
+body.debug > main aside > section{
+    height: 100%;
+}
+
+/*****************************************/
 /***** LAYOUT: ONLY MOBILE "XS SIZE" *****/
 @media screen and (max-width: 480px) {
 
