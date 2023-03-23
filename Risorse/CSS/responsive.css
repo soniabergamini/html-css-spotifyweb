@@ -8,7 +8,7 @@
 
     /* GENERAL STYLE */
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
 
     /* MAIN STYLE */
     aside {
@@ -67,7 +67,7 @@
 /***** LAYOUT: ONLY MOBILE "XS SIZE" WITH REDUCED HEIGHT *****/
 @media screen and (max-width: 480px) and (max-height: 320px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     aside > nav > div:first-child {
@@ -86,7 +86,7 @@
 /***** LAYOUT: ALL DEVICES ONLY REDUCED HEIGHT *****/
 @media screen and (min-width: 481px) and (max-height: 675px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     aside > nav > div:first-child {
@@ -105,7 +105,7 @@
 /***** LAYOUT: ONLY MOBILE "S SIZE" *****/
 @media screen and (max-width: 768px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     /* FOOTER STYLE */
@@ -115,7 +115,7 @@
 /***** LAYOUT: ONLY TABLET "MD SIZE" *****/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     /* FOOTER STYLE */
@@ -125,7 +125,7 @@
 /***** LAYOUT: TABLET & DESKTOP "MD & LG SIZE" *****/
 @media screen and (min-width: 768px) {
     
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     /* FOOTER STYLE */
@@ -136,7 +136,7 @@
 /***** LAYOUT: ONLY DESKTOP "LG SIZE" *****/
 @media screen and (min-width: 992px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     /* FOOTER STYLE */
@@ -147,7 +147,7 @@
 /***** LAYOUT: ONLY EXTRA LARGE DESKTOP "XL SIZE" *****/
 @media screen and (min-width: 1200px) {
 
-    /* HEADER STYLE */
+    /* BANNER STYLE */
     /* MAIN STYLE */
     /* Side Menu Bar Style */
     /* FOOTER STYLE */

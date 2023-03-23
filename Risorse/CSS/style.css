@@ -26,8 +26,8 @@ a {
     text-decoration: none;
 }
 
-/******** HEADER STYLE ********/
-header {
+/******** BANNER STYLE ********/
+#banner {
     height: 5.625rem;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ header {
     opacity: 0.8;
 }
 
-header button {
+#banner button {
     border: 1px solid white;
     z-index: 2;
     padding: 0.5rem 1.5rem;
@@ -126,7 +126,7 @@ aside i.fa-circle-arrow-down {
     margin-right: 1em;
 }
 
-aside hr {
+nav > div > hr {
     border: 0.5px solid var(--lightgreyTXT);
     margin-top: -0.5rem;
     margin-left: 0;
