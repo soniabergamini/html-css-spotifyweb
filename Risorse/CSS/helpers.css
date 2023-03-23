@@ -13,7 +13,7 @@
 .alignCtr       {align-items: center;}
 .alignStart     {align-items: flex-start;}
 .alignEnd       {align-items: flex-end;}
-.gap1em         {gap: 1em;}
+.gap1rem         {gap: 1rem;}
 
 /********************************************
     POSITION, TRANSITION & DISPLAY HELPERS 
@@ -81,7 +81,7 @@
 /********************************************
         UTILITY | hover 
  *******************************************/
-.fontBigHov:hover       {font-size: 18px;}
+.fontBigHov:hover       {font-size: 20px;}
 .boxShadowHov:hover     {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
 .txtUnderHov:hover      {text-decoration: underline;}
 .changeColBlueHov:hover {color: var(--blueBG);}

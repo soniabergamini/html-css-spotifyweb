@@ -40,36 +40,38 @@
                         </p>
                         <p class="cursor">
                             <a href="#">
-                                <i class="fa-solid fa-magnifying-glass menuIcon txtGrey txtVertAlignMid"></i>
-                                <span class="dispNoneXs txtGrey"> Cerca</span>
+                                <i class="fa-solid fa-magnifying-glass menuIcon txtVertAlignMid"></i>
+                                <span class="dispNoneXs"> Cerca</span>
                             </a>
                         </p>
                         <p class="cursor">
                             <a href="#">
-                                <i id="libraryIcon" class="txtGrey fa-solid fa-lines-leaning fa-flip-horizontal menuIcon posRelative txtVertAlignMid"></i>
-                                <span class="dispNoneXs txtGrey"> La tua libreria</span>
+                                <i id="libraryIcon" class="fa-solid fa-lines-leaning fa-flip-horizontal menuIcon posRelative txtVertAlignMid"></i>
+                                <span class="dispNoneXs"> La tua libreria</span>
                             </a>
                         </p>
                         <h5 class="dispNoneXs">PLAYLIST</h5>
                         <p class="cursor">
                             <a href="#">
                                 <i class="fa-sharp fa-solid fa-square-plus menuIcon scale1-5 txtVertAlignMid"></i>
-                                <span class="dispNoneXs txtGrey"><strong> Crea Playlist</strong></span>
+                                <span class="dispNoneXs"><strong> Crea Playlist</strong></span>
                             </a>
                         </p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
-                        <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                        <div id="playlistBox">
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                            <p class="cursor txtGrey"><a href="#">Nome Playlist</a></p>
+                        </div>
                     </div>
                     <div>
-                        <p class="cursor txtGrey">
+                        <p class="cursor">
                             <a href="#">
                                 <i class="fa-solid fa-circle-arrow-down"></i>
-                                <span class="dispNoneXs txtGrey dispNoneXs"><strong> Install app</strong></span>
+                                <span class="dispNoneXs dispNoneXs"><strong> Install app</strong></span>
                             </a>
                         </p>
                         <hr class="dispNoneXs">
@@ -86,8 +88,11 @@
             <section id="mainContentSec" class="bgBlue txtGrey pad1rem">
                 <!-- Nav Bar Playlist -->
                 <nav>
-                    <ul class="flex justyCtr listStyleNone flexWrap gap1em">
-                        <li><a href="#" class="cursor txtGrey">IN EVIDENZA</a></li>
+                    <ul class="flex justyCtr listStyleNone flexWrap gap1rem">
+                        <li>
+                            <a href="#" class="cursor txtGrey">IN EVIDENZA</a>
+                            <hr>
+                        </li>
                         <li><a href="#" class="cursor txtGrey">PODCAST</a></li>
                         <li><a href="#" class="cursor txtGrey">CLASSIFICHE</a></li>
                         <li><a href="#" class="cursor txtGrey">GENERI E MOOD</a></li>
@@ -97,7 +102,7 @@
                 </nav>
                 <!-- 1° Main Section - Recently Played  -->
                 <!-- <section class="rowSec wid100Perc">
-                    <h2>Recently Played</h2>
+                    <h2 class="txtWhite">Recently Played</h2>
                     <div class="rowCont flex">
                         <div class="card">
                             <img src="./Risorse/img/metal_lifting.jpg" alt="playlistCover" class="wid100Perc">

@@ -51,7 +51,8 @@
     }
 
     aside > nav > div:last-child > p:first-child {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0.1rem;
     }
 
     aside i.fa-user.menuIcon {
@@ -107,7 +108,7 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
+    /* Main Content Section Style */
     /* FOOTER STYLE */
 }
 
@@ -117,7 +118,7 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
+    /* Main Content Section Style */
     /* FOOTER STYLE */
 } 
 
@@ -127,7 +128,7 @@
     
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
+    /* Main Content Section Style */
     /* FOOTER STYLE */
     
 }
@@ -138,7 +139,7 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
+    /* Main Content Section Style */
     /* FOOTER STYLE */
 
 }
@@ -149,7 +150,7 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
+    /* Main Content Section Style */
     /* FOOTER STYLE */
 
 } 
