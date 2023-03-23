@@ -90,13 +90,18 @@
         display: none;
     }
 
-    main > section {
+    /* 1) Soluzione con overflow-y solo nella sezione main content principale:
+    /* main > section {
         height: calc(100vh - 5.625rem);
         margin-top: 0;
     }
-
     aside {
         margin-top: 0;
+    } */
+
+    /* 2) soluzione con overflow-y che scrolla anche sotto il banner trasparente: */
+    #mainContentSec {
+        padding-top: .5rem;
     }
 }
 

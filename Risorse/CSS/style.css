@@ -33,7 +33,7 @@ a {
     top: 0;
     left: 0;
     z-index: 1;
-    /* opacity: 0.8; */
+    opacity: 0.8;
 }
 
 #banner button {
@@ -52,18 +52,20 @@ a {
 
 /* General Layout Style */
 main > section {
+    /* 1) soluzione con overflow-y solo nella sezione main content principale:
     height: calc(100vh - 11.25rem);
-    margin-top: 5.625rem;
+    margin-top: 5.625rem; */
+
+    /* 2) soluzione con overflow-y che scrolla anche sotto il banner trasparente: */
+    height: calc(100vh - 5.625rem);
+    padding-top: -5.625rem;
 }
 
 aside {
     width: 14.375rem;
     margin-top: -5.625rem;
     z-index: 2;
-}
-
-#mainContentSec {
-    width: calc(100vw - 14.375rem);
+    padding-top: 5.625rem;
 }
 
 /* Side Menu Bar Style */
@@ -162,7 +164,10 @@ aside > nav > div:last-child > p:last-child {
 
 /* Main Content Section Style */
 #mainContentSec {
+    width: calc(100vw - 14.375rem);
     overflow-y: scroll;
+    /* Proprietà per soluzione con overflow-y che scrolla anche sotto il banner trasparente: */
+    padding-top: 6rem;
 }
 
 #mainContentSec nav ul {
