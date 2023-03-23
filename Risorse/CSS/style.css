@@ -46,6 +46,8 @@ a {
 
 #banner button:hover {
     padding: 0.6rem 2rem;
+    border-color: var(--green);
+    color: var(--green);
 }
 
 /******** MAIN STYLE ********/
@@ -211,21 +213,26 @@ figure > i.posAbsolute {
     /* animation: 1.5s ease 0s infinite beat; */
 }
 
-figure:hover img {
-    filter: brightness(50%);
-    transition: 1s;
+.card:hover h6 {
+    color: var(--green);
+    transition: 0.5s;
 }
 
-figure:hover > i.posAbsolute {
+.card:hover img {
+    filter: brightness(50%);
+    transition: 0.5s;
+    box-shadow: 0px 0px 31px 5px var(--green);
+    animation: 1.5s ease 0s infinite beat;
+}
+
+.card:hover i.posAbsolute {
     visibility: visible;
 }
 
-/* @keyframes beat {
+@keyframes beat {
   0%, 50%, 100% { transform: scale(1, 1); }
   30%, 80% { transform: scale(0.92, 0.95); }
-} */
-
-
+} 
 
 /******** FOOTER STYLE ********/
 footer {
