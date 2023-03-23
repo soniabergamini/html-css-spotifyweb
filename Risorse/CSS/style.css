@@ -27,6 +27,10 @@ a {
     color: var(--lightgreyTXT);
 }
 
+#container {
+    overflow-y: scroll;
+}
+
 /******** BANNER STYLE ********/
 #banner {
     height: 5.625rem;
@@ -156,7 +160,7 @@ aside i.fa-user.menuIcon {
 }
 
 aside > nav > div:last-child > p:last-child {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* Main Content Section Style */
@@ -177,6 +181,25 @@ aside > nav > div:last-child > p:last-child {
     border: 1px solid var(--green);
     margin: 4% 30%;
 }
+
+.rowCont > div {
+    width: calc(100% / 2 - 1rem);
+}
+
+figcaption {
+    padding: 0.5rem 0;
+}
+
+figcaption > h6 {
+    font-size: clamp(0.56rem, calc(0.47rem + 0.47vw), 0.91rem);
+    padding-bottom: 0.5rem;
+}
+
+.rowSec p {
+    font-size: clamp(0.56rem, calc(0.51rem + 0.25vw), 0.75rem);;
+    font-weight: 700;
+}
+
 
 
 
