@@ -62,40 +62,40 @@ aside {
 }
 
 /* Side Menu Bar Style */
-aside > section {
+aside > nav {
     padding: 1rem;
     overflow-y: scroll;
 }
 
-aside > section > div:first-child {
-    height: 90%;
+aside > nav > div:first-child {
+    height: 92%;
 }
 
-aside > section > div:last-child {
-    height: 10%;
+aside > nav > div:last-child {
+    height: 8%;
 }
 
-aside > section > div > img {
+aside > nav > div > img {
     margin-bottom: 1.875rem;
 }
 
-aside > section > div > img:nth-child(2) {
+aside > nav > div > img:nth-child(2) {
     display: none;
 }
 
-aside > section > div > * {
+aside > nav > div > * {
     margin-left: -1rem;
     padding-left: 1rem;
     border-left: 2px solid var(--green);
 }
 
-aside > section > div > p {
+aside > nav > div > p {
     margin-bottom: 1rem;
     font-size: .75rem;
     font-weight: 600;
 }
 
-aside > section > div > p:nth-child(5) {
+aside > nav > div > p:nth-child(5) {
     margin-bottom: 1.875rem;
 }
 
@@ -109,7 +109,7 @@ aside > section > div > p:nth-child(5) {
     left: -0.25rem;
 }
 
-aside > section > div > h5 {
+aside > nav > div > h5 {
     margin-bottom: 1rem;
 }
 
@@ -138,7 +138,7 @@ aside i.fa-user.menuIcon {
     font-size: 16px;
 }
 
-aside > section > div:last-child > p:last-child {
+aside > nav > div:last-child > p:last-child {
     margin-top: 1rem;
 }
 

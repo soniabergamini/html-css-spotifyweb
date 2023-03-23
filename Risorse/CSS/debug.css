@@ -1,6 +1,6 @@
 /*****************************************/
 /***** ALL LAYOUT *****/
-body.debug > main aside > section{
+body.debug > main aside > nav {
     height: 100%;
 }
 
