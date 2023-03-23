@@ -84,7 +84,24 @@
 }
 
 /******************************************************/
-/***** LAYOUT: ALL DEVICES ONLY REDUCED HEIGHT *****/
+/***** LAYOUT: ALL DEVICES WITH REDUCED HEIGHT *****/
+@media screen and (max-height: 320px) {
+    #banner {
+        display: none;
+    }
+
+    main > section {
+        height: calc(100vh - 5.625rem);
+        margin-top: 0;
+    }
+
+    aside {
+        margin-top: 0;
+    }
+}
+
+/******************************************************/
+/***** LAYOUT: ALL DEVICES (XS EXCL.) ONLY REDUCED HEIGHT *****/
 @media screen and (min-width: 481px) and (max-height: 675px) {
 
     /* BANNER STYLE */
