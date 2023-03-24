@@ -51,7 +51,6 @@ a {
 #banner button:hover {
     padding: 0.6rem 2rem;
     border-color: var(--green);
-    color: var(--green);
 }
 
 /******** MAIN STYLE ********/
@@ -148,8 +147,7 @@ aside > nav > div:first-child > p:hover:not(h5 + p) {
     border-left: 2px solid var(--green);
 }
 
-aside > nav > div p:hover a ,
-nav > ul > li > a:hover {
+aside > nav > div p:hover a {
     color: white;
 }
 
@@ -259,14 +257,61 @@ footer {
 
 #musicPlayerSec {
     height: 100%;
+    padding: 1rem 0.5rem;
 }
 
 #musicPlayerSec > section {
-    width: calc(100% / 3 - 2rem);
+    /* width: calc(100% / 3 - .5rem); */
     height: 100%;
 }
 
-#musicPlayerSec > section:first-child img {
-    /* width: 2.2rem; */
-    height: 100%;
+#musicPlayerSec > section:nth-child(odd) {
+    width: calc(100% / 3);
+}
+
+#musicPlayerSec > section:nth-child(even) {
+    width: calc(100% / 2);
+}
+
+#musicPlayerSec > section i {
+    padding: .2rem .2rem; 
+}
+
+#musicPlayerSec > section p {
+    padding: 0 .2rem;
+}
+
+#musicPlayerSec section:nth-of-type(odd) i {
+    font-size: clamp(0.63rem, calc(0.51rem + 0.59vw), 1.06rem);
+}
+
+#musicPlayerSec section:nth-of-type(even) i {
+    font-size: clamp(0.69rem, calc(0.56rem + 0.74vw), 1.25rem);
+}
+
+#musicPlayerSec > section img {
+    height: 75%;
+} 
+
+#musicPlayerSec > section:nth-child(2) hr {
+    width: 15vw;
+    border: 2px solid var(--lightgreyTXT);
+    border-radius: 5px;
+}
+
+#musicPlayerSec > section:last-child hr {
+    width: 10vw;
+    border: 2px solid var(--lightgreyTXT);
+    border-radius: 5px;
+}
+
+#musicPlayerSec i.fa-circle-play:hover {
+    animation: 1.5s ease 0s infinite circleBeat;
+    /* Soluzione hover senza animazione:
+    transform: scale(2); */
+}
+
+@keyframes circleBeat {
+  0%, 50%, 100% { transform: scale(2.5, 2.5); }
+  30%, 80% { transform: scale(2.1, 2.2); }
 } 

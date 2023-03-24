@@ -1,9 +1,41 @@
-/**************************
-        MOBILE FIRST 
-**************************/
+/****************************
+        MOBILE FIRST "S SIZE"
+****************************/
 
 /*****************************************/
-/***** LAYOUT: ONLY MOBILE "XS SIZE" *****/
+/***** LAYOUT EXTRA: ONLY MOBILE "XXS SIZE" *****/
+@media screen and (max-width: 300px) {
+    /* BANNER STYLE */
+    #banner button {
+        display: none;
+    }
+
+    /* FOOTER STYLE */
+    #musicPlayerSec section:nth-child(odd) {
+        display: none;
+    }
+
+    #musicPlayerSec {
+        flex-direction: column;
+    }
+
+    #musicPlayerSec section:nth-of-type(even) i {
+        font-size: clamp(0.5rem, calc(0.5rem + 4.28vw), 1.3rem);
+    }
+
+    #musicPlayerSec > section i ,
+    #musicPlayerSec > section p {
+        /* padding: .3rem 1rem; */
+        padding: auto;
+    }
+
+    #musicPlayerSec>section:nth-child(2) hr {
+        width: 50vw;
+    }
+}
+
+/*****************************************/
+/***** LAYOUT EXTRA: ONLY MOBILE "XS SIZE" *****/
 @media screen and (max-width: 480px) {
 
     /* GENERAL STYLE */
@@ -119,9 +151,7 @@
     aside > nav > div:last-child {
         height: auto;
     }
-
     /* FOOTER STYLE */
-
 }
 
 /****************************************/
@@ -145,6 +175,11 @@
         width: calc(100% / 4 - 1rem);
     }
     /* FOOTER STYLE */
+    #musicPlayerSec > section:nth-child(2) hr {
+        width: 19vw;
+        border: 2px solid var(--lightgreyTXT);
+        border-radius: 5px;
+    }
 } 
 
 /***************************************************/
@@ -155,6 +190,36 @@
     /* MAIN STYLE */
     /* Main Content Section Style */
     /* FOOTER STYLE */
+    #musicPlayerSec {
+        padding: 1rem;
+    }
+
+    #musicPlayerSec > section img {
+        height: 100%;
+    }
+     
+    #musicPlayerSec > section i {
+        padding: .5rem 1em;
+    }
+
+    #musicPlayerSec > section:nth-child(1) p {
+        padding: 0 0 0 .5rem;
+    }
+
+    #musicPlayerSec > section:nth-child(2) p {
+        padding: .3rem .3rem;
+    }
+
+    #musicPlayerSec  > section:first-child > div:last-child {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #musicPlayerSec > section:last-child hr {
+        width: 8vw;
+        border: 2px solid var(--lightgreyTXT);
+        border-radius: 5px;
+    }
     
 }
 
@@ -169,6 +234,11 @@
         width: calc(100% / 6 - 1rem);
     }
     /* FOOTER STYLE */
+    #musicPlayerSec > section:nth-child(2) hr {
+        width: 23vw;
+        border: 2px solid var(--lightgreyTXT);
+        border-radius: 5px;
+    }
 
 }
 

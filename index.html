@@ -21,7 +21,7 @@
     <!-- Banner -->
     <div id="banner" class="wid100Perc posFixed">
         <section class="heig100Perc flex justyEnd alignCtr pad05rem">
-            <button class="cursor txtWhite borderRadius">EFFETTUA L'UPGRADE</button>
+            <button class="cursor txtWhite borderRadius changeColGreenHov">EFFETTUA L'UPGRADE</button>
         </section>
     </div>
     <!-- Main Section with Nav Bar Menu & Main Contents -->
@@ -91,27 +91,27 @@
                 <nav>
                     <ul class="flex justyCtr listStyleNone flexWrap gap1rem">
                         <li>
-                            <a href="#" class="cursor txtGrey">IN EVIDENZA</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">IN EVIDENZA</a>
                             <hr id="fixHR">
                         </li>
                         <li>
-                            <a href="#" class="cursor txtGrey">PODCAST</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">PODCAST</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#" class="cursor txtGrey">CLASSIFICHE</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">CLASSIFICHE</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#" class="cursor txtGrey">GENERI E MOOD</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">GENERI E MOOD</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#" class="cursor txtGrey">NUOVE USCITE</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">NUOVE USCITE</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#" class="cursor txtGrey">SCOPRI</a>
+                            <a href="#" class="cursor txtGrey changeColWhiteHov">SCOPRI</a>
                             <hr>
                         </li>
                     </ul>
@@ -236,20 +236,48 @@
         </section>
     </main>
     <!-- Footer Section with Music Player Banner-->
-    <footer class="border wid100Perc bgGrey">
-        <section id="musicPlayerSec" class="flex border spaceBtw alignCtr pad1rem">
-            <!-- Speaker Audio/Video Controller -->
-            <!-- <section class="flex border">
-                <div class="flex border justyCtr alignCtr cursor fontBigHov secTrans flexWrap txtAlignCtr">
-                    <img src="./Risorse/img/player_left.jpg" alt="playerleft-img" class="txtVertAlignMid">
-                    <p class="txtWhite">Hilltop Hoods</p>
-                    <p class="txtGrey">Clark Griswold</p>
+    <footer class="wid100Perc bgGrey">
+        <section id="musicPlayerSec" class="flex spaceBtw alignCtr gap05rem">
+            <!-- Album Section -->
+            <section class="flex">
+                <div class="flex justyCtr alignCtr cursor">
+                    <img src="./Risorse/img/player_left.jpg" alt="playerleft-img" class="fontBigHov">
+                    <div>
+                        <p class="txtWhite">Hilltop Hoods</p>
+                        <p class="txtGrey txtUnderHov changeColWhiteHov"><small>Clark Griswold</small></p>
+                    </div>
                 </div>
-                <div class="txtAlignCtr cursor fontBigHov secTrans border">
-                    <p class="txtWhite">Hilltop Hoods</p>
-                    <p class="txtGrey">Clark Griswold</p>
+                <div class="flex flexColumn justyCtr cursor txtGrey">
+                    <i class="fa-regular fa-heart changeColWhiteHov"></i>
+                    <i class="fa-regular fa-folder changeColWhiteHov"></i>
                 </div>
-            </section> -->
+            </section>
+            <!-- Player Section -->
+            <section class="flex justyCtr">
+                <div class="flex flexColumn justyCtr alignCtr cursor txtWhite">
+                    <div class="flex spaceBtw wid100Perc alignCtr">
+                        <i class="fa-solid fa-shuffle changeColGreenHov"></i>
+                        <i class="fa-solid fa-backward-step changeColGreenHov"></i>
+                        <i class="fa-regular fa-circle-play changeColGreenHov"></i>
+                        <i class="fa-solid fa-forward-step changeColGreenHov"></i>
+                        <i class="fa-solid fa-arrow-rotate-right changeColGreenHov"></i>
+                    </div>
+                    <div class="flex justyCtr alignCtr">
+                        <p>0:25</p>
+                        <hr>
+                        <p>4:35</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Audio Section -->
+            <section class="flex justyEnd">
+                <div class="flex justyCtr alignCtr cursor txtWhite">
+                    <i class="fa-solid fa-list changeColGreenHov"></i>
+                    <i class="fa-solid fa-display changeColGreenHov"></i>
+                    <i class="fa-solid fa-volume-high changeColGreenHov"></i>
+                    <hr>
+                </div>
+            </section>
     </footer>
 </body>
 </html>
