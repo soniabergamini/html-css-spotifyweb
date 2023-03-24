@@ -227,16 +227,8 @@ footer {
 }
 
 #musicPlayerSec > section {
-    /* width: calc(100% / 3 - .5rem); */
+    width: calc(100% / 3); 
     height: 100%;
-}
-
-#musicPlayerSec > section:nth-child(odd) {
-    width: calc(100% / 3);
-}
-
-#musicPlayerSec > section:nth-child(even) {
-    width: calc(100% / 2);
 }
 
 #musicPlayerSec > section:nth-child(1) i {
