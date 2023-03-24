@@ -234,7 +234,7 @@
     }
      
     #musicPlayerSec > section i {
-        padding: .5rem 1em;
+        padding: .5em;
     }
 
     #musicPlayerSec > section:nth-child(1) p {
