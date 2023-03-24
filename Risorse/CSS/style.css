@@ -34,6 +34,9 @@ a {
     left: 0;
     z-index: 1;
     opacity: 0.8;
+    /* Alterntive Gradient Background instead of "darkblueBG": */
+    background: rgb(27,41,65);
+    background: linear-gradient(0deg, rgba(27,41,65,1) 0%, rgba(7,11,18,1) 100%); 
 }
 
 #banner button {
@@ -42,6 +45,7 @@ a {
     padding: 0.5rem 1.5rem;
     font-size: .7rem;
     font-weight: 900;
+    background-color: transparent;
 }
 
 #banner button:hover {
@@ -73,8 +77,13 @@ aside {
 /* Side Menu Bar Style */
 aside > nav {
     padding: 1rem;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 100%;
+}
+
+aside > nav > div > div {
+    overflow-y: scroll;
+    height: 35%;
 }
 
 aside > nav > div:first-child {
