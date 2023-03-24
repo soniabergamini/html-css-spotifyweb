@@ -48,11 +48,6 @@ a {
     background-color: transparent;
 }
 
-#banner button:hover {
-    padding: 0.6rem 2rem;
-    border-color: var(--green);
-}
-
 /******** MAIN STYLE ********/
 
 /* General Layout Style */
@@ -147,10 +142,6 @@ aside > nav > div:first-child > p:hover:not(h5 + p) {
     border-left: 2px solid var(--green);
 }
 
-aside > nav > div p:hover a {
-    color: white;
-}
-
 aside i.fa-circle-arrow-down {
     margin-right: 1em;
 }
@@ -197,10 +188,6 @@ aside > nav > div:last-child > p:last-child {
     display: none;
 }
 
-#mainContentSec nav li:hover hr {
-    display: block !important;
-}
-
 .rowCont > div {
     width: calc(100% / 2 - 1rem);
 }
@@ -228,27 +215,6 @@ figure > i.posAbsolute {
     visibility: hidden;
     /* animation: 1.5s ease 0s infinite beat; */
 }
-
-.card:hover h6 {
-    color: var(--green);
-    transition: 0.5s;
-}
-
-.card:hover img {
-    filter: brightness(50%);
-    transition: 0.5s;
-    box-shadow: 0px 0px 31px 5px var(--green);
-    animation: 1.5s ease 0s infinite beat;
-}
-
-.card:hover i.posAbsolute {
-    visibility: visible;
-}
-
-@keyframes beat {
-  0%, 50%, 100% { transform: scale(1, 1); }
-  30%, 80% { transform: scale(0.92, 0.95); }
-} 
 
 /******** FOOTER STYLE ********/
 footer {
@@ -304,14 +270,3 @@ footer {
     border: 2px solid var(--lightgreyTXT);
     border-radius: 5px;
 }
-
-#musicPlayerSec i.fa-circle-play:hover {
-    animation: 1.5s ease 0s infinite circleBeat;
-    /* Soluzione hover senza animazione:
-    transform: scale(2); */
-}
-
-@keyframes circleBeat {
-  0%, 50%, 100% { transform: scale(2.5, 2.5); }
-  30%, 80% { transform: scale(2.1, 2.2); }
-} 

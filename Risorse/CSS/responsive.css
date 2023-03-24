@@ -1,6 +1,6 @@
-/****************************
+/*********************************
         MOBILE FIRST "S SIZE"
-****************************/
+*********************************/
 
 /*****************************************/
 /***** LAYOUT EXTRA: ONLY MOBILE "XXS SIZE" *****/
@@ -9,7 +9,7 @@
     #banner button {
         display: none;
     }
-
+    /* MAIN STYLE */
     /* FOOTER STYLE */
     #musicPlayerSec section:nth-child(odd) {
         display: none;
@@ -102,7 +102,6 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
     aside > nav > div:first-child {
         height: auto;
     }
@@ -118,23 +117,29 @@
 /******************************************************/
 /***** LAYOUT: ALL DEVICES WITH REDUCED HEIGHT *****/
 @media screen and (max-height: 320px) {
+
+    /* BANNER STYLE */
     #banner {
         display: none;
     }
-
-    /* 1) Soluzione con overflow-y solo nella sezione main content principale:
-    /* main > section {
+    /* MAIN STYLE */
+    /* 
+    1) Soluzione con overflow-y solo nella sezione main content principale:
+    main > section {
         height: calc(100vh - 5.625rem);
         margin-top: 0;
     }
     aside {
         margin-top: 0;
-    } */
+    } 
+    */
 
     /* 2) soluzione con overflow-y che scrolla anche sotto il banner trasparente: */
     #mainContentSec {
         padding-top: .5rem;
     }
+
+    /* FOOTER STYLE */
 }
 
 /******************************************************/
@@ -143,7 +148,6 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Side Menu Bar Style */
     aside > nav > div:first-child {
         height: auto;
     }
@@ -151,6 +155,7 @@
     aside > nav > div:last-child {
         height: auto;
     }
+
     /* FOOTER STYLE */
 }
 
@@ -160,7 +165,6 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Main Content Section Style */
     /* FOOTER STYLE */
 }
 
@@ -170,10 +174,10 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Main Content Section Style */
     .rowCont > div {
         width: calc(100% / 4 - 1rem);
     }
+
     /* FOOTER STYLE */
     #musicPlayerSec > section:nth-child(2) hr {
         width: 19vw;
@@ -187,8 +191,40 @@
 @media screen and (min-width: 768px) {
     
     /* BANNER STYLE */
+    #banner button:hover {
+        padding: 0.6rem 2rem;
+        border-color: var(--green);
+    }
+
     /* MAIN STYLE */
-    /* Main Content Section Style */
+    aside > nav > div p:hover a {
+        color: white;
+    }
+
+    #mainContentSec nav li:hover hr {
+        display: block !important;
+    }
+    .card:hover h6 {
+        color: var(--green);
+        transition: 0.5s;
+    }
+
+    .card:hover img {
+        filter: brightness(50%);
+        transition: 0.5s;
+        box-shadow: 0px 0px 31px 5px var(--green);
+        animation: 1.5s ease 0s infinite beat;
+    }
+
+    @keyframes beat {
+    0%, 50%, 100% { transform: scale(1, 1); }
+    30%, 80% { transform: scale(0.92, 0.95); }
+    } 
+
+    .card:hover i.posAbsolute {
+        visibility: visible;
+    }
+
     /* FOOTER STYLE */
     #musicPlayerSec {
         padding: 1rem;
@@ -220,7 +256,17 @@
         border: 2px solid var(--lightgreyTXT);
         border-radius: 5px;
     }
-    
+
+    #musicPlayerSec i.fa-circle-play:hover {
+        animation: 1.5s ease 0s infinite circleBeat;
+        /* Soluzione hover senza animazione:
+        transform: scale(2); */
+    }
+
+    @keyframes circleBeat {
+        0%, 50%, 100% { transform: scale(2.5, 2.5); }
+        30%, 80% { transform: scale(2.1, 2.2); }
+    } 
 }
 
 /******************************************/
@@ -229,10 +275,10 @@
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Main Content Section Style */
     .rowCont > div {
         width: calc(100% / 6 - 1rem);
     }
+
     /* FOOTER STYLE */
     #musicPlayerSec > section:nth-child(2) hr {
         width: 23vw;
@@ -243,12 +289,11 @@
 }
 
 /******************************************************/
-/***** LAYOUT: ONLY EXTRA LARGE DESKTOP "XL SIZE" *****/
+/***** LAYOUT EXTRA: ONLY EXTRA LARGE DESKTOP "XL SIZE" *****/
 @media screen and (min-width: 1200px) {
 
     /* BANNER STYLE */
     /* MAIN STYLE */
-    /* Main Content Section Style */
     /* FOOTER STYLE */
 
 } 
