@@ -239,8 +239,13 @@ footer {
     width: calc(100% / 2);
 }
 
-#musicPlayerSec > section i {
-    padding: .2rem; 
+#musicPlayerSec > section:nth-child(1) i {
+    padding: .2rem;
+}
+
+#musicPlayerSec > section:nth-child(2) i,
+#musicPlayerSec > section:nth-child(3) i {
+    padding: .5rem .2rem; 
 }
 
 #musicPlayerSec > section p {
@@ -258,6 +263,10 @@ footer {
 #musicPlayerSec > section img {
     height: 75%;
 } 
+
+#musicPlayerSec i.fa-circle-play {
+    transform: scale(2);
+}
 
 #playerHR {
     width: 15vw;

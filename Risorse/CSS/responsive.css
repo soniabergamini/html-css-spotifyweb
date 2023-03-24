@@ -232,9 +232,14 @@
     #musicPlayerSec > section img {
         height: 100%;
     }
-     
-    #musicPlayerSec > section i {
-        padding: .5em;
+
+    #musicPlayerSec > section:first-child i {
+        padding: .5rem .5rem;
+    }
+
+    #musicPlayerSec > section:nth-child(2) i ,
+    #musicPlayerSec > section:nth-child(3) i {
+        padding: .5rem;
     }
 
     #musicPlayerSec > section:nth-child(1) p {
