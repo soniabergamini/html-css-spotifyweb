@@ -264,7 +264,12 @@
                     </div>
                     <div class="flex justyCtr alignCtr">
                         <p>0:25</p>
-                        <hr id="playerHR" class="posRelative">
+                        <!-- Player Progress Bar -->
+                        <div class="posRelative flex alignCtr">
+                            <hr id="playerHR">
+                            <hr class="progressHR posAbsolute">
+                            <div class="progressDOT posAbsolute borderRadius50"></div>
+                        </div>
                         <p>4:35</p>
                     </div>
                 </div>
@@ -275,7 +280,12 @@
                     <i class="fa-solid fa-list changeColGreenHov"></i>
                     <i class="fa-solid fa-display changeColGreenHov"></i>
                     <i class="fa-solid fa-volume-high changeColGreenHov"></i>
-                    <hr>
+                    <!-- Audio Progress Bar -->
+                    <div class="posRelative flex alignCtr">
+                        <hr id="audioHR">
+                        <hr class="progressHR posAbsolute">
+                        <div class="progressDOT posAbsolute borderRadius50"></div>
+                    </div>
                 </div>
             </section>
     </footer>

@@ -259,14 +259,30 @@ footer {
     height: 75%;
 } 
 
-#musicPlayerSec > section:nth-child(2) hr {
+#playerHR {
     width: 15vw;
     border: 2px solid var(--lightgreyTXT);
     border-radius: 5px;
 }
 
-#musicPlayerSec > section:last-child hr {
+#audioHR {
     width: 10vw;
     border: 2px solid var(--lightgreyTXT);
     border-radius: 5px;
+}
+
+.progressHR {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 5vw;
+    left: 0;
+}
+
+.progressDOT {
+    visibility: hidden;
+    border: 2px solid white;
+    background-color: white;
+    width: 1vw;
+    height: 1vw;
+    left: 4.8vw;
 }

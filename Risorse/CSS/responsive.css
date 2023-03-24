@@ -2,7 +2,7 @@
         MOBILE FIRST "S SIZE"
 *********************************/
 
-/*****************************************/
+/************************************************/
 /***** LAYOUT EXTRA: ONLY MOBILE "XXS SIZE" *****/
 @media screen and (max-width: 300px) {
     /* BANNER STYLE */
@@ -29,12 +29,12 @@
         padding: auto;
     }
 
-    #musicPlayerSec>section:nth-child(2) hr {
+    #playerHR {
         width: 50vw;
     }
 }
 
-/*****************************************/
+/***********************************************/
 /***** LAYOUT EXTRA: ONLY MOBILE "XS SIZE" *****/
 @media screen and (max-width: 480px) {
 
@@ -96,7 +96,7 @@
     /* FOOTER STYLE */
 }
 
-/*****************************************/
+/*************************************************************/
 /***** LAYOUT: ONLY MOBILE "XS SIZE" WITH REDUCED HEIGHT *****/
 @media screen and (max-width: 480px) and (max-height: 320px) {
 
@@ -111,10 +111,9 @@
     }
 
     /* FOOTER STYLE */
-
 }
 
-/******************************************************/
+/***************************************************/
 /***** LAYOUT: ALL DEVICES WITH REDUCED HEIGHT *****/
 @media screen and (max-height: 320px) {
 
@@ -142,7 +141,7 @@
     /* FOOTER STYLE */
 }
 
-/******************************************************/
+/**************************************************************/
 /***** LAYOUT: ALL DEVICES (XS EXCL.) ONLY REDUCED HEIGHT *****/
 @media screen and (min-width: 481px) and (max-height: 675px) {
 
@@ -179,7 +178,7 @@
     }
 
     /* FOOTER STYLE */
-    #musicPlayerSec > section:nth-child(2) hr {
+    #playerHR {
         width: 19vw;
         border: 2px solid var(--lightgreyTXT);
         border-radius: 5px;
@@ -251,7 +250,7 @@
         align-items: center;
     }
 
-    #musicPlayerSec > section:last-child hr {
+    #audioHR {
         width: 8vw;
         border: 2px solid var(--lightgreyTXT);
         border-radius: 5px;
@@ -267,6 +266,14 @@
         0%, 50%, 100% { transform: scale(2.5, 2.5); }
         30%, 80% { transform: scale(2.1, 2.2); }
     } 
+
+    #musicPlayerSec div.posRelative:hover > .progressHR {
+        border-color: var(--green);
+    } 
+
+    #musicPlayerSec div.posRelative:hover > .progressDOT {
+        visibility: visible;
+    }
 }
 
 /******************************************/
@@ -280,20 +287,18 @@
     }
 
     /* FOOTER STYLE */
-    #musicPlayerSec > section:nth-child(2) hr {
+    #playerHR {
         width: 23vw;
         border: 2px solid var(--lightgreyTXT);
         border-radius: 5px;
     }
-
 }
 
-/******************************************************/
+/************************************************************/
 /***** LAYOUT EXTRA: ONLY EXTRA LARGE DESKTOP "XL SIZE" *****/
 @media screen and (min-width: 1200px) {
 
     /* BANNER STYLE */
     /* MAIN STYLE */
     /* FOOTER STYLE */
-
 } 
