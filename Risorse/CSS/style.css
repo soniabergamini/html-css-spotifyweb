@@ -186,6 +186,14 @@ aside > nav > div:last-child > p:last-child {
     margin: 4% 30%;
 }
 
+#mainContentSec nav li > hr:not(#fixHR) {
+    display: none;
+}
+
+#mainContentSec nav li:hover hr {
+    display: block !important;
+}
+
 .rowCont > div {
     width: calc(100% / 2 - 1rem);
 }
@@ -199,7 +207,8 @@ figcaption > h6 {
     padding-bottom: 0.5rem;
 }
 
-.rowSec p {
+.rowSec p ,
+#musicPlayerSec p {
     font-size: clamp(0.56rem, calc(0.51rem + 0.25vw), 0.75rem);;
     font-weight: 700;
 }
@@ -238,3 +247,17 @@ figure > i.posAbsolute {
 footer {
     height: 5.625rem;
 }
+
+#musicPlayerSec {
+    height: 100%;
+}
+
+#musicPlayerSec > section {
+    width: calc(100% / 3 - 2rem);
+    height: 100%;
+}
+
+#musicPlayerSec > section:first-child img {
+    /* width: 2.2rem; */
+    height: 100%;
+} 
